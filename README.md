@@ -9,8 +9,24 @@
 ---
 ## 🧠 About the Project: Northwind SQL EDA
 
-This project explores the Northwind sample database, a fictional data set provided by Microsoft—using MySQL. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
+The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
 We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights that inform product performance, customer behavior, sales patterns, and potential areas of growth.
+
+---
+## 📊 Executive Summary
+This project dives into the Northwind dataset to answer high-impact business questions across product strategy, customer segmentation, and revenue performance.
+
+This project analyzes the Northwind dataset to identify:
+- Top-performing products, categories, regions and customers
+- Detect market inefficiencies and underperformers
+- Analyze sales performance over time (monthly, yearly)
+- Country-level opportunities for expansion - an opportunity for expansion
+
+ Key Insights:
+- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern
+- Argentina generates the lowest revenue despite selling high-margin items, suggesting untapped potential
+- Meat/Poultry is high-margin but understocked
+- Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
 
 ---
 
@@ -107,7 +123,7 @@ Imagine this dataset came from a real-world client: a small business owner askin
 
 ---- 
 
-
+### *Product strategy*
   <details><summary><strong>1) Which suppliers are providing the most products, and what does it tell us? </strong></summary>
 
 
@@ -206,6 +222,8 @@ What categories could potentially bring more money if there would be more demand
 
 ---
 
+### *Customer insights*
+
   <details><summary><strong>4) Who are our most active customers? </strong></summary>
     
 #### 4) Who are our most active customers?
@@ -271,6 +289,9 @@ This analysis calculates the **total revenue per customer** using multiple `JOIN
 </details>
 
 ----
+
+### *Country-based insights*
+
   <details><summary><strong>8) Which country generates the most and least revenue? </strong></summary>
     
 #### 8) Which country generates the most and least revenue?
@@ -323,6 +344,9 @@ We can choose other countries as well, such as USA:<br>
 </details>
 
 ----
+
+### *Time-based trends*
+
   <details><summary><strong>12) What were our sales patterns in 1996? </strong></summary>
     
 #### 12) What were our sales patterns in 1996?
@@ -426,6 +450,23 @@ You can view all SQL queries: <br>
 </details>
 
 ---
+---
+
+### 💼 Final thoughts & business initiatives
+* Key takeaways:
+   * Focus on high-performing suppliers & categories
+   * Regional product strategy is essential
+   * Use customer data to drive loyalty & personalisation
+ 
+* Action plan:
+   * Expand product lines in low-performing regions (e.g. Argentina), starting with high-performing categories from other regions (e.g. Beverages, Meat).
+   * Reduce SKU (Stock Keeping Unit) count in low-margin categories like Condiments and Confections.
+   * Launch loyalty programs and  bundle popular items for top 10% of customers who drive majority revenue.
+   * Reevaluate pricing for low-margin products
+
+
+---
+
 ### Tools used:
 SQL – Core language for data querying <br>
 Excel - for graphs<br>
