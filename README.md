@@ -107,7 +107,13 @@ Imagine this dataset came from a real-world client: a small business owner askin
 
 ---- 
 
+
+  <details><summary><strong>1) Which suppliers are providing the most products, and what does it tell us? </strong></summary>
+
+
 #### 1) Which suppliers are providing the most products, and what does it tell us?
+ 
+
   
  ![image](https://github.com/user-attachments/assets/f34c4946-e689-43ed-9480-c0fc4b234c0f)
  
@@ -121,8 +127,11 @@ This finding is essential for supplier relationship management and negotiation s
 
 **Business Initiative:**  
 Establish diversified supplier contracts and introduce contingency planning for high-volume suppliers.
+</details>
 
 ---
+  <details><summary><strong>2) What categories are we strongest in? </strong></summary>
+    
 #### 2) What categories are we strongest in?
   
 ![image](https://github.com/user-attachments/assets/9d69dafe-d069-4853-8610-846a10e9a879)
@@ -138,8 +147,11 @@ For instance, a high number of products in **Beverages** may suggest either spec
 **Business Initiative:**  
 Invest marketing and inventory resources in top-performing categories.  
 Explore expanding product offerings in underrepresented but high-margin categories.
+</details>
 
 ---
+  <details><summary><strong>3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money: </strong></summary>
+
 #### 3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money:
 * Query:
 ![image](https://github.com/user-attachments/assets/08f578a0-1bbc-403f-b563-1daf129bfd0e)
@@ -167,10 +179,11 @@ Reassess pricing strategies for low-margin categories, and consider expanding of
 
 ![image](https://github.com/user-attachments/assets/c4140a52-1f74-49c1-9d67-243ab6a2bafa) <br>
 
- e already calculated the average in excel, but if we can do it in MySQL too applying this formula:
+We already calculated the average in excel, but if we can do it in MySQL too applying this formula:
 SELECT AVG(northwind.products.Price)
 FROM northwind.products
 
+-----
 
 📊 Product Price & Revenue Performance by Category
 
@@ -189,8 +202,12 @@ FROM northwind.products
 
 Other questions whose results might be interesting:
 What categories could potentially bring more money if there would be more demand?
+</details>
 
+---
 
+  <details><summary><strong>4) Who are our most active customers? </strong></summary>
+    
 #### 4) Who are our most active customers?
 ![image](https://github.com/user-attachments/assets/51816fcf-19e8-4643-9270-c3073731d88c)
 
@@ -216,19 +233,27 @@ Using a `JOIN` between the `orders` and `customers` tables, we identified custom
 **Further Questions to Explore:**
 - What are these customers’ purchasing priorities?
 - What decisions can the business make based on this insight?
+</details>
 
+----
+  <details><summary><strong>5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query: </strong></summary>
+    
 #### 5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query:
 ![image](https://github.com/user-attachments/assets/b50ed6e5-989f-4cb3-bacb-fafe7e4a3ff4)
 ![image](https://github.com/user-attachments/assets/8d63468c-dbf1-4f39-82dc-0b162066c607)
+</details>
 
 ---
-
+  <details><summary><strong>6) We can also find out the most sold product by each customer: </strong></summary>
+    
 #### 6) We can also find out the most sold product by each customer:
 ![image](https://github.com/user-attachments/assets/354184a5-d938-49ba-a1be-140cbe454d04)
 ![image](https://github.com/user-attachments/assets/d007aad6-6f65-479e-8b42-ab856438f265)
+</details>
 
 ---
-
+  <details><summary><strong>7) Which customers generate the most revenue? </strong></summary>
+    
 #### 7) Which customers generate the most revenue?
 ![image](https://github.com/user-attachments/assets/2b765b65-fa3f-4aa1-aea9-77da04b6b252)
 ![image](https://github.com/user-attachments/assets/03489dc1-2a74-460a-b37d-f9061ca0eb01)
@@ -243,8 +268,11 @@ This analysis calculates the **total revenue per customer** using multiple `JOIN
 - Revenue is calculated as `Price × Quantity`
 - Data is grouped by customer name
 - Results are sorted by revenue in
+</details>
 
 ----
+  <details><summary><strong>8) Which country generates the most and least revenue? </strong></summary>
+    
 #### 8) Which country generates the most and least revenue?
 ![image](https://github.com/user-attachments/assets/70b6bf47-89d4-4d08-a6c9-14b140dfb72a)
 ![image](https://github.com/user-attachments/assets/2b51a1b1-5f82-4179-ae61-95617689652d)
@@ -254,8 +282,11 @@ If we order the Countries in ascending order then we get: <br>
 
 Here, **Argentina** shows the **lowest revenue** among all countries analyzed.  
 This could be due to **low product demand**, **limited customer base**, or the market being concentrated in **a single city**.
+</details>
 
 ---
+  <details><summary><strong>9) Let's find out the best & worst performing categories in Argentina: </strong></summary>
+    
 #### 9) Let's find out the best & worst performing categories in Argentina:
 ![image](https://github.com/user-attachments/assets/9d50101a-6ca1-46c5-98fa-4623a7effdc2)
 
@@ -268,15 +299,19 @@ From our broader analysis, categories such as **Meat/Poultry** and **Beverages**
 This suggests an opportunity for Argentina to **expand its product offerings** by introducing these high-performing categories into the market.
 
 ➡️ Business Insight: Expanding into successful categories could boost demand and revenue in Argentina’s underdeveloped market.
+</details>
 
 ---
-
+  <details><summary><strong>10) Most popular products and their categories by country: </strong></summary>
+    
 #### 10) Most popular products and their categories by country:
 ![image](https://github.com/user-attachments/assets/a05f4c5b-7fb9-4681-9bb7-155ef9d28e8b)
 ![image](https://github.com/user-attachments/assets/35749e33-591c-4b37-bbe5-ed0145901a1c)
+</details>
 
 ---
-
+  <details><summary><strong>11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query: </strong></summary>
+  
 #### 11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query:
 ![image](https://github.com/user-attachments/assets/b466f814-147e-4f2a-9fa2-eab7d8916c21)
 
@@ -285,9 +320,11 @@ The output for Argentina will be: <br>
 
 We can choose other countries as well, such as USA:<br>
 ![image](https://github.com/user-attachments/assets/41c3a4a2-e5bf-4782-b9cd-94c88cd3e68a)
+</details>
 
 ----
-
+  <details><summary><strong>12) What were our sales patterns in 1996? </strong></summary>
+    
 #### 12) What were our sales patterns in 1996?
 ![image](https://github.com/user-attachments/assets/1717a71d-d341-4ba3-a978-ebb0e38e9cc1)
 ![image](https://github.com/user-attachments/assets/3dce4de2-c2d6-4877-abdb-113db4d31f6b)
@@ -300,9 +337,11 @@ For example, to view sales trends in the **USA** during 1996, simply add the fol
 
 ![image](https://github.com/user-attachments/assets/33a68c0f-0574-46df-b2d9-67493223e948)
 ![image](https://github.com/user-attachments/assets/dd059a5a-7aa6-467a-b201-c091424fa343)
+</details>
 
 ---
-
+  <details><summary><strong>13) What is our best-performing month overall? </strong></summary>
+    
 #### 13) What is our best-performing month overall?
 ![image](https://github.com/user-attachments/assets/858f4ad8-62df-4116-b29f-963cd43808e6)
 ![image](https://github.com/user-attachments/assets/c55274ab-465c-4302-9cf0-e1156477b6a7)
@@ -318,8 +357,11 @@ It reveals when demand is highest, allowing you to **replicate the strategies an
 **Business initiative:**
 - Focus operational and marketing resources around peak sales periods  
 - Analyze what contributed to success during this time and build on it
+</details>
 
 ---
+  <details><summary><strong>14) Which year saw the highest total sales? </strong></summary>
+    
 #### 14) Which year saw the highest total sales?
 ![image](https://github.com/user-attachments/assets/c6337be5-a4c8-48dc-8310-2fd68be8359a)
 ![image](https://github.com/user-attachments/assets/5668ff09-4f3a-4a4f-97df-e4cc8e2f6a71)
@@ -343,9 +385,10 @@ If one year underperforms, it’s an opportunity to:
 - Analyze what changed
 - Replicate previous successful strategies
 - Investigate possible market or operational shifts
+</details>
 
 ---
-
+  <details><summary><strong>15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends) </strong></summary>
 
 #### 15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends)? <br>
 By Year: <br>
@@ -362,6 +405,10 @@ Using Excel, and creating a column clustered graph we are able to get the inasig
 **Why it matters:**
 Tracks business performance trends and helps detect sales spikes, declines, and pricing fluctuations.
 Business Initiative: Adjust pricing, volume strategies, and promotions according to historical growth/decline trends.
+</details>
+
+---
+  <details><summary><strong>16) Which products sell the most? </strong></summary>
 
 #### 16)  Which products sell the most?
 ![image](https://github.com/user-attachments/assets/682661a8-3935-44e9-a0ef-e4c1a0b5549b)
@@ -376,12 +423,13 @@ Reveals customer preferences and drives demand forecasting and marketing focus.
 Business Initiative: Push bestsellers with bundles or discounts.
 
 You can view all SQL queries: <br>
+</details>
 
 ---
-### 🧰 Tools used:
-SQL – Core language for data querying
-Excel - for graphs
-MySQL Workbench – Writing, testing, and visualizing SQL
+### Tools used:
+SQL – Core language for data querying <br>
+Excel - for graphs<br>
+MySQL Workbench – Writing, testing, and visualizing SQL <br>
 
 Structyre:
 Additional screenshots:
