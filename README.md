@@ -60,7 +60,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 ---
 ### 🎯 Aims of the Project:
 
-In this project I acted as the data analyst for the Northwind company. My goal was to identify:
+In this project I acted as the data analyst for the Northwind company. I asked 16 questions. My goal was to identify:
 - Top-performing products, categories, regions and customers
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
@@ -70,7 +70,7 @@ In this project I acted as the data analyst for the Northwind company. My goal w
 
 ### 🎯 Key Insights:
 - 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern
-- Argentina generates the lowest revenue despite selling high-margin items, suggesting untapped potential
+- Argentina generates the lowest revenue despite selling high-margin items, which points to a missed opportunity. The market has potential but lacks the right product mix
 - Meat/Poultry is high-margin but understocked
 - Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
 
@@ -499,10 +499,14 @@ You can view all SQL queries: <br>
 
 
 ### ⚠️ Challenges & Limitations
-Since this was a fictional dataset, I didn’t have profit or cost columns, which limits margin analysis. Also, no real-time data or external benchmarks to validate assumptions. If I had access to customer demographics or order frequency data, I’d build a churn or segmentation model.
+* Handling joins across multiple tables and ensuring no duplicates in revenue calculation. 
+* Since this was a fictional dataset, I didn’t have profit or cost columns, which limits margin analysis. Also, no real-time data or external benchmarks to validate assumptions. If I had access to customer demographics or order frequency data, I’d build a churn or segmentation model.
 
 ### 🚀 What is Next 
-I would love to expand this by building a Tableau dashboard with filters by region or category. 
+* I would love to expand this by building a Tableau dashboard with Top 5 customers, Bottom 5 products by margin, revenue by country, time, and category
+Include KPIs: YoY growth, Top 5 customers, Bottom 5 products by margin.
+* Argentina is underperforming. I should compare it with a peer country maybe (Chile? Brazil?)
+
 
 ---
 
