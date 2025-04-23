@@ -84,7 +84,7 @@ I primarily focused on the Orders, Order Details, and Products tables to underst
 
 ---
 
-### 🎯 Analysis Techniques Used:
+### 🎯 Methods I Used for Analysis:
 
 - Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and overall schema.
 
@@ -103,7 +103,7 @@ I primarily focused on the Orders, Order Details, and Products tables to underst
 * Performing EDA, Exploratory Data Analysis, to understand the structure and contents of the database
 * Explore relationships between products, suppliers, customers, and orders
 * Writing SQL queries to understand data relationships and patterns
-* Joining tables to get more context (e.g., supplier with product, customer with order)
+* **Joining tables** to get more context (e.g., supplier with product, customer with order)
 * Filtering data to answer specific business questions (e.g., identifying meat/poultry products, or orders from 1996)
 * Grouping and aggregating (e.g., number of products per category, total quantity ordered)
 
@@ -145,9 +145,9 @@ SELECT * FROM products WHERE price > 100000;
 ----
 
 ### 🎯 Key Insights:
-- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern. This suggests a need for a targeted retention strategy for high-value customers. 
+- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern. This suggests a need for a targeted retention strategy for high-value customers, that could drive more revenue. 
 - Argentina generates the lowest revenue despite selling high-margin items, which points to a missed opportunity. The market has potential but lacks the right product mix
-- Meat/Poultry is high-margin but understocked
+- Meat/Poultry is high-margin but understocked.This could be a strategic area to focus on to boost profitability.
 - Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
 
 -----
