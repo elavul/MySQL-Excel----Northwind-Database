@@ -30,17 +30,24 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 <details>
 <summary><strong>📌 Business Questions Explored</strong></summary>
 
+##### *Product strategy* 
 - [1) Which suppliers are providing the most products, and what does it tell us?](#1-which-suppliers-are-providing-the-most-products-and-what-does-it-tell-us)
 - [2) What categories are we strongest in?](#2-what-categories-are-we-strongest-in)
 - [3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money:](#3-now-lets-see-if-there-are-any-inefficiencies-in-our-product-categories-and-what-categories-bring-the-most-money)
+
+##### *Customer insights*
 - [4) Who are our most active customers?](#4-who-are-our-most-active-customers)
 - [5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query:](#5-if-we-want-to-find-out-the-location-of-each-customer-and-how-much-they-sold-total-quantity-sold-we-can-use-this-query)
 - [6) We can also find out the most sold product by each customer:](#6-we-can-also-find-out-the-most-sold-product-by-each-customer)
 - [7) Which customers generate the most revenue?](#7-which-customers-generate-the-most-revenue)
+
+##### *Country-based insights*
 - [8) Which country generates the most and least revenue?](#8-which-country-generates-the-most-and-least-revenue)
 - [9) Let's find out the best & worst performing categories in Argentina:](#9-lets-find-out-the-best--worst-performing-categories-in-argentina)
 - [10) Most popular products and their categories by country:](#10-most-popular-products-and-their-categories-by-country)
 - [11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query:](#11-if-we-want-to-find-out-the-most-popular-product-in-argentina-then-we-can-add-this-to-our-existent-query)
+
+ ##### *Time-based trends* 
 - [12) What were our sales patterns in 1996?](#12-what-were-our-sales-patterns-in-1996)
 - [13) What is our best-performing month overall?](#13-what-is-our-best-performing-month-overall)
 - [14) Which year saw the highest total sales?](#14-which-year-saw-the-highest-total-sales)
@@ -53,7 +60,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 ---
 ### 🎯 Aims of the Project:
 
-This project is an end-to-end exploratory analysis of the Northwind SQL dataset, where I acted as the data analyst for a fictional company. My goal was to identify:
+In this project I acted as the data analyst for the Northwind company. My goal was to identify:
 - Top-performing products, categories, regions and customers
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
@@ -149,7 +156,7 @@ Imagine this dataset came from a real-world client: a small business owner askin
 
 ---- 
 
-### *Product strategy*
+#### *Product strategy* 
   <details><summary><strong>1) Which suppliers are providing the most products, and what does it tell us? </strong></summary>
 
 
@@ -248,7 +255,7 @@ What categories could potentially bring more money if there would be more demand
 
 ---
 
-### *Customer insights*
+#### *Customer insights*
 
   <details><summary><strong>4) Who are our most active customers? </strong></summary>
     
@@ -316,7 +323,7 @@ This analysis calculates the **total revenue per customer** using multiple `JOIN
 
 ----
 
-### *Country-based insights*
+#### *Country-based insights*
 
   <details><summary><strong>8) Which country generates the most and least revenue? </strong></summary>
     
@@ -371,7 +378,7 @@ We can choose other countries as well, such as USA:<br>
 
 ----
 
-### *Time-based trends*
+#### *Time-based trends*  
 
   <details><summary><strong>12) What were our sales patterns in 1996? </strong></summary>
     
