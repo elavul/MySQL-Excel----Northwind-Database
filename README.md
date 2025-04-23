@@ -18,7 +18,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 
  [🎯 Aims of the Project](#-aims-of-the-project) <br>
  [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
- [🎯 Analysis Techniques Used](#-analysis-techniques-used) <br>
+ [🎯 Methods I Used for Analysis](#-methods-i-used-for-analysis) <br>
  [🧹 Pre-Analysis: Data Quality Checks](#-pre-analysis-data-quality-checks)   <br>
  [🔗 Understand Relationships](#-understand-relationships)   <br>
  [🧼 Data Modeling & Cleaning](#-data-modeling--cleaning)   <br>
@@ -65,6 +65,12 @@ In this project I acted as the data analyst for the Northwind company. I asked 1
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
 - Country-level opportunities for expansion - an opportunity for expansion
+- 
+---
+### Tools used:
+SQL – Core language for data querying <br>
+Excel - for graphs<br>
+MySQL Workbench – Writing, testing, and visualizing SQL <br>
 
 ---
 ### 🗂️ Introducing the Dataset:
@@ -75,7 +81,7 @@ The Northwind database consists of several tables that represent different parts
 * Orders and Order Details: Data on customer purchases and their quantities.
 * Employees and Shippers: Information on the sales team and shipping providers.
 
-I primarily focused on the Orders, Order Details, and Products tables to understand sales patterns, customer behaviors, and the impact of product categories on overall revenue. Here is a quick look at the schema diagram, which shows how these tables relate to each other:
+I **primarily focused on the Orders, Order Details, and Products tables** to understand sales patterns, customer behaviors, and the impact of product categories on overall revenue. Here is a quick look at the schema diagram, which shows how these tables relate to each other:
 
 📥 *SQL File:*  [Uploading Northwind Database create.sql…]()   <br>
 🧭 Schema Diagram:
@@ -86,26 +92,19 @@ I primarily focused on the Orders, Order Details, and Products tables to underst
 
 ### 🎯 Methods I Used for Analysis:
 
-- Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and overall schema.
+- Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and schema to understand the database.
 
-- Data Modeling: Joining tables (e.g., Customers ↔ Orders ↔ Products), relationship mapping via primary/foreign keys
+- Data Modeling: Used SQL JOINs (e.g., Customers ↔ Orders ↔ Products) to map relationships via primary/foreign keys, providing deeper context.
 
-- Filtering: Custom SQL filters to answer niche business questions (e.g., top products by country, 1996 orders only)
+- Filtering & Aggregation: Applied custom SQL filters to answer business questions (e.g., top products by country, orders from 1996) and aggregated data by categories, regions, and months to calculate key metrics (revenue, quantity sold).
 
-- Aggregation: Grouping by categories, regions, months to calculate revenue, quantity sold, order frequency
+- Visualization: Exported query results to Excel for generating charts and dashboards to visualize trends.
 
-- Visualization: Exporting query results to Excel for charts and dashboards
+<details> <summary>Exporting the query from MySql Workbench into Excel for the creation of charts: </summary>summary>
+ 
+![Screenshot 2025-04-20 162200](https://github.com/user-attachments/assets/4bcf71a8-4db1-4c4d-942d-f6db1157dbea)
 
----
-
-#### Additional Analysis Steps:
-
-* Performing EDA, Exploratory Data Analysis, to understand the structure and contents of the database
-* Explore relationships between products, suppliers, customers, and orders
-* Writing SQL queries to understand data relationships and patterns
-* **Joining tables** to get more context (e.g., supplier with product, customer with order)
-* Filtering data to answer specific business questions (e.g., identifying meat/poultry products, or orders from 1996)
-* Grouping and aggregating (e.g., number of products per category, total quantity ordered)
+</details>
 
 ---
 ### 🧹 Pre-Analysis: Data Quality Checks
@@ -506,18 +505,11 @@ You can view all SQL queries: <br>
 
 ### 🚀 What is Next 
 * I would love to expand this by building a Tableau dashboard with Top 5 customers, Bottom 5 products by margin, revenue by country, time, and category
-Include KPIs: YoY growth, Top 5 customers, Bottom 5 products by margin.
+* Explore profit as well, not just revenue
 * Argentina is underperforming. I should compare it with a peer country maybe (Chile? Brazil?)
 
 
 ---
 
-### Tools used:
-SQL – Core language for data querying <br>
-Excel - for graphs<br>
-MySQL Workbench – Writing, testing, and visualizing SQL <br>
 
-Structyre:
-Additional screenshots:
-Exporting the query from MySql Workbench into Excel for the creation of charts:
-![Screenshot 2025-04-20 162200](https://github.com/user-attachments/assets/4bcf71a8-4db1-4c4d-942d-f6db1157dbea)
+
