@@ -23,6 +23,9 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
  [🔗 Understand Relationships](#-understand-relationships)   <br>
  [🧼 Data Modeling & Cleaning](#-data-modeling--cleaning)   <br>
  [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
+ [💼 Final thoughts & business initiatives](#-final-thoughts--business-initiatives) <br>
+ [⚠️ Challenges & Limitations](#-challenges--limitations) <br>
+ [🚀 What is Next](#-what-is-next)
  
 <details>
 <summary><strong>📌 Business Questions Explored</strong></summary>
@@ -487,6 +490,12 @@ You can view all SQL queries: <br>
    * Launch loyalty programs and  bundle popular items for top 10% of customers who drive majority revenue.
    * Reevaluate pricing for low-margin products
 
+
+### ⚠️ Challenges & Limitations
+Since this was a fictional dataset, I didn’t have profit or cost columns, which limits margin analysis. Also, no real-time data or external benchmarks to validate assumptions. If I had access to customer demographics or order frequency data, I’d build a churn or segmentation model.
+
+### 🚀 What is Next 
+I would love to expand this by building a Tableau dashboard with filters by region or category. 
 
 ---
 
