@@ -17,18 +17,18 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 ### 📚 Table of Contents
 
  [🎯 Aims of the Project](#-aims-of-the-project) <br>
- [🎯 Key Insights](#-key-insights) <br>
+ [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
  [🎯 Analysis Techniques Used](#-analysis-techniques-used) <br>
  [🧹 Pre-Analysis: Data Quality Checks](#-pre-analysis-data-quality-checks)   <br>
  [🔗 Understand Relationships](#-understand-relationships)   <br>
  [🧼 Data Modeling & Cleaning](#-data-modeling--cleaning)   <br>
- [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
+ [🎯 Key Insights](#-key-insights) <br>
  [💼 Final thoughts & business initiatives](#-final-thoughts--business-initiatives) <br>
  [⚠️ Challenges & Limitations](#-challenges--limitations) <br>
  [🚀 What is Next](#-what-is-next)
  
 <details>
-<summary><strong>📌 Business Questions Explored</strong></summary>
+<summary><strong>📌 Technical Details & Business Questions Explored</strong></summary>
 
 ##### *Product strategy* 
 - [1) Which suppliers are providing the most products, and what does it tell us?](#1-which-suppliers-are-providing-the-most-products-and-what-does-it-tell-us)
@@ -67,12 +67,20 @@ In this project I acted as the data analyst for the Northwind company. I asked 1
 - Country-level opportunities for expansion - an opportunity for expansion
 
 ---
+### 🗂️ Introducing the Dataset:
+The Northwind database consists of several tables that represent different parts of the business. These include:
 
-### 🎯 Key Insights:
-- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern
-- Argentina generates the lowest revenue despite selling high-margin items, which points to a missed opportunity. The market has potential but lacks the right product mix
-- Meat/Poultry is high-margin but understocked
-- Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
+* Products and Categories: Details about the items sold and their classifications.
+* Suppliers and Customers: Information about the vendors and clients.
+* Orders and Order Details: Data on customer purchases and their quantities.
+* Employees and Shippers: Information on the sales team and shipping providers.
+
+I primarily focused on the Orders, Order Details, and Products tables to understand sales patterns, customer behaviors, and the impact of product categories on overall revenue. Here is a quick look at the schema diagram, which shows how these tables relate to each other:
+
+📥 *SQL File:*  [Uploading Northwind Database create.sql…]()   <br>
+🧭 Schema Diagram:
+
+<img src="https://github.com/user-attachments/assets/590ec6bc-4bc9-41b2-932f-c54372787004" alt="Northwind_Database_create_schema_design" width="400"/>
 
 ---
 
@@ -133,24 +141,18 @@ SELECT * FROM products WHERE price > 100000;
 * Standardize date/time formats
 
 * Remove or impute missing data
-
+  
 ----
 
-### 🗂️ Introducing the Dataset:
+### 🎯 Key Insights:
+- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern. This suggests a need for a targeted retention strategy for high-value customers. 
+- Argentina generates the lowest revenue despite selling high-margin items, which points to a missed opportunity. The market has potential but lacks the right product mix
+- Meat/Poultry is high-margin but understocked
+- Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
 
-The Northwind database contains tables such as: <br>
-* Products and Categories
-* Suppliers and Customers
-* Orders and Order Details
-* Employees and Shippers
-
-📥 *SQL File:*  [Uploading Northwind Database create.sql…]()   <br>
-🧭 Schema Diagram:
-
-<img src="https://github.com/user-attachments/assets/590ec6bc-4bc9-41b2-932f-c54372787004" alt="Northwind_Database_create_schema_design" width="400"/>
-
-----
 -----
+-----
+## Technical Details: SQL and Excel
 ### 📈 Business Questions Explored
 Imagine this dataset came from a real-world client: a small business owner asking for insights into how the company is operating. Their questions might include:
 
