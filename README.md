@@ -12,7 +12,6 @@
 The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
 We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights that inform product performance, customer behavior, sales patterns, and potential areas of growth.
 
-
 ---
 
 ### 📚 Table of Contents
@@ -51,7 +50,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 ---
 ### 🎯 Aims of the Project:
 
-This project analyzes the Northwind dataset to identify:
+This project is an end-to-end exploratory analysis of the Northwind SQL dataset, where I acted as the data analyst for a fictional company. My goal was to identify:
 - Top-performing products, categories, regions and customers
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
