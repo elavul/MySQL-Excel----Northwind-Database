@@ -1,4 +1,4 @@
-# Northwind Database
+# Northwind Database Analysis
 ---
 ![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -12,32 +12,19 @@
 The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
 We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights that inform product performance, customer behavior, sales patterns, and potential areas of growth.
 
----
-## 📊 Executive Summary
-This project dives into the Northwind dataset to answer high-impact business questions across product strategy, customer segmentation, and revenue performance.
-
-This project analyzes the Northwind dataset to identify:
-- Top-performing products, categories, regions and customers
-- Detect market inefficiencies and underperformers
-- Analyze sales performance over time (monthly, yearly)
-- Country-level opportunities for expansion - an opportunity for expansion
-
- Key Insights:
-- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern
-- Argentina generates the lowest revenue despite selling high-margin items, suggesting untapped potential
-- Meat/Poultry is high-margin but understocked
-- Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
 
 ---
 
-## 📚 Table of Contents
+### 📚 Table of Contents
 
  [🎯 Aims of the Project](#-aims-of-the-project) <br>
+ [🎯 Key Insights](#-key-insights) <br>
+ [🎯 Analysis Techniques Used](#-analysis-techniques-used) <br>
  [🧹 Pre-Analysis: Data Quality Checks](#-pre-analysis-data-quality-checks)   <br>
  [🔗 Understand Relationships](#-understand-relationships)   <br>
  [🧼 Data Modeling & Cleaning](#-data-modeling--cleaning)   <br>
  [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
-
+ 
 <details>
 <summary><strong>📌 Business Questions Explored</strong></summary>
 
@@ -63,6 +50,39 @@ This project analyzes the Northwind dataset to identify:
 
 ---
 ### 🎯 Aims of the Project:
+
+This project analyzes the Northwind dataset to identify:
+- Top-performing products, categories, regions and customers
+- Detect market inefficiencies and underperformers
+- Analyze sales performance over time (monthly, yearly)
+- Country-level opportunities for expansion - an opportunity for expansion
+
+---
+
+### 🎯 Key Insights:
+- 80% of revenue comes from 20% of customers, indicating a strong Pareto pattern
+- Argentina generates the lowest revenue despite selling high-margin items, suggesting untapped potential
+- Meat/Poultry is high-margin but understocked
+- Beverages dominate both in volume and revenue, but some high-volume categories (e.g., Confections, Condiments) underperform in profitability
+
+---
+
+### 🎯 Analysis Techniques Used:
+
+- Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and overall schema.
+
+- Data Modeling: Joining tables (e.g., Customers ↔ Orders ↔ Products), relationship mapping via primary/foreign keys
+
+- Filtering: Custom SQL filters to answer niche business questions (e.g., top products by country, 1996 orders only)
+
+- Aggregation: Grouping by categories, regions, months to calculate revenue, quantity sold, order frequency
+
+- Visualization: Exporting query results to Excel for charts and dashboards
+
+---
+
+#### Additional Analysis Steps:
+
 * Performing EDA, Exploratory Data Analysis, to understand the structure and contents of the database
 * Explore relationships between products, suppliers, customers, and orders
 * Writing SQL queries to understand data relationships and patterns
@@ -81,15 +101,19 @@ Before diving into the analysis, it's important to ensure the data is **clean, r
 * Outliers: e.g., extremely high sales amounts
 SELECT * FROM products WHERE price > 100000;
 
+---
+
 ### 🔗 Understand Relationships
 
 * Understand primary/foreign keys
 * Write efficient **JOINs** between:
-  - Products & Categories
-  - Suppliers & Products
-  - Orders & Customers
-  - Orders & Employees
-  - Order_Details & Products
+   * Products ↔ Categories: Understand which product categories are performing best.
+   * Suppliers ↔ Products: Analyzed supplier performance and product availability.
+   * Orders ↔ Customers: Linked customer behavior and order history to detect high-value customers.
+   * Orders ↔ Employees: Explored sales performance by employee to gauge team effectiveness.
+   * Order Details ↔ Products: Analyzed which products are consistently ordered together to optimize product placement.
+
+---
 
 ### 🧼 Data Modeling & Cleaning 
 
