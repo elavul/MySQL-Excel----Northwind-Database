@@ -65,13 +65,14 @@ In this project I acted as the data analyst for the Northwind company. I was pro
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
 - Country-level opportunities for expansion - an opportunity for expansion
-- 
+
 ---
 ### Tools used:
 SQL – Core language for data querying <br>
 Excel - for graphs<br>
 MySQL Workbench – Writing, testing, and visualizing SQL <br>
 Tableau - for a final interactive visualisation
+https://public.tableau.com/app/profile/ela.maria.vultur/viz/NorthwindDataset-spottinginefficienciesinourproductrange/Dashboard1
 
 ---
 ### 🗂️ Introducing the Dataset:
