@@ -60,7 +60,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 ---
 ### 🎯 Aims of the Project:
 
-In this project I acted as the data analyst for the Northwind company. I asked 16 questions. My goal was to identify:
+In this project I acted as the data analyst for the Northwind company. I was provided with 16 questions. My goal was to identify:
 - Top-performing products, categories, regions and customers
 - Detect market inefficiencies and underperformers
 - Analyze sales performance over time (monthly, yearly)
