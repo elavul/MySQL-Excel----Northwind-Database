@@ -71,7 +71,7 @@ In this project I acted as the data analyst for the Northwind company. I was pro
 SQL – Core language for data querying <br>
 Excel - for graphs<br>
 MySQL Workbench – Writing, testing, and visualizing SQL <br>
-Tableau - for an interactive visualisation
+Tableau - for a final interactive visualisation
 
 ---
 ### 🗂️ Introducing the Dataset:
