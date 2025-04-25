@@ -208,7 +208,11 @@ Explore expanding product offerings in underrepresented but high-margin categori
 * Query results exported into Excel: <br>
 ![image](https://github.com/user-attachments/assets/df86c17f-05c8-4039-8068-e948a0e06809)
 * Chart: <br>
-![image](https://github.com/user-attachments/assets/136d78d6-6232-4850-909b-46786c5ccf92)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dadc80c8-9e17-44c3-8186-fc404ee753a6" width="600"/>
+</div>
+
+
 
 By calculating the **SUM** and **AVG** of the `Price` column, we gain insight into how well each category performs — or underperforms.
 
