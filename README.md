@@ -1,4 +1,4 @@
-# Northwind Database Analysis
+ # Northwind Database Analysis
 ---
 ![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -92,7 +92,7 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 
 ---
 
-### 🎯 Methods I Used for Analysis:
+ <details><summary><strong> 🎯 Methods I Used for Analysis:   </strong> </summary> 
 
 - Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and schema to understand the database.
 
@@ -107,9 +107,9 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 ![Screenshot 2025-04-20 162200](https://github.com/user-attachments/assets/4bcf71a8-4db1-4c4d-942d-f6db1157dbea)
 
 </details>
-
+</details>
 ---
-### 🧹 Pre-Analysis: Data Quality Checks
+ <details><summary><strong>🧹 Pre-Analysis: Data Quality Checks   </strong> </summary> 
 
 Before diving into the analysis, it's important to ensure the data is **clean, reliable, and ready**. A few simple checks go a long way in ensuring the accuracy of your insights.
 **Run SQL queries to check:**
@@ -119,9 +119,11 @@ Before diving into the analysis, it's important to ensure the data is **clean, r
 * Outliers: e.g., extremely high sales amounts
 SELECT * FROM products WHERE price > 100000;
 
+</details>
+
 ---
 
-### 🔗 Understand Relationships
+ <details><summary><strong>🔗 Understand Relationships   </strong> </summary> 
 
 * Understand primary/foreign keys
 * Write efficient **JOINs** between:
@@ -131,9 +133,10 @@ SELECT * FROM products WHERE price > 100000;
    * Orders ↔ Employees: Explored sales performance by employee to gauge team effectiveness.
    * Order Details ↔ Products: Analyzed which products are consistently ordered together to optimize product placement.
 
+</details>
 ---
 
-### 🧼 Data Modeling & Cleaning 
+ <details><summary><strong>🧼 Data Modeling & Cleaning  </strong> </summary> 
 
 * Normalize data where needed
 
@@ -142,7 +145,8 @@ SELECT * FROM products WHERE price > 100000;
 * Standardize date/time formats
 
 * Remove or impute missing data
-  
+
+</details>
 ----
 
 ### 🎯 Key Insights:
