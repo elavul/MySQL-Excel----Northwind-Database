@@ -19,7 +19,6 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
  [🎯 Aims of the Project](#-aims-of-the-project) <br>
  [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
  [🧹 Pre-Analysis Steps](#-pre-analysis-steps)   <br>
-
  [🎯 Key Insights](#-key-insights) <br>
  [💼 Final thoughts & business initiatives](#-final-thoughts--business-initiatives) <br>
  [⚠️ Challenges & Limitations](#-challenges--limitations) <br>
@@ -108,7 +107,7 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 
 </details>
 </details>
----
+
  <details><summary><strong> Data Quality Checks   </strong> </summary> 
 
 Before diving into the analysis, it's important to ensure the data is **clean, reliable, and ready**. A few simple checks go a long way in ensuring the accuracy of your insights.
@@ -121,7 +120,6 @@ SELECT * FROM products WHERE price > 100000;
 
 </details>
 
----
 
  <details><summary><strong>🔗 Understand Relationships   </strong> </summary> 
 
@@ -134,7 +132,6 @@ SELECT * FROM products WHERE price > 100000;
    * Order Details ↔ Products: Analyzed which products are consistently ordered together to optimize product placement.
 
 </details>
----
 
  <details><summary><strong>🧼 Data Modeling & Cleaning  </strong> </summary> 
 
@@ -147,6 +144,7 @@ SELECT * FROM products WHERE price > 100000;
 * Remove or impute missing data
 
 </details>
+
 ----
 
 ### 🎯 Key Insights:
@@ -160,6 +158,35 @@ SELECT * FROM products WHERE price > 100000;
 ## Technical Details: SQL and Excel
 ### 📈 Business Questions Explored
 Imagine this dataset came from a real-world client: a small business owner asking for insights into how the company is operating. Their questions might include:
+
+<details>
+<summary><strong>📌 Click here to see all questions</strong></summary>
+
+##### *Product strategy* 
+- [1) Which suppliers are providing the most products, and what does it tell us?](#1-which-suppliers-are-providing-the-most-products-and-what-does-it-tell-us)
+- [2) What categories are we strongest in?](#2-what-categories-are-we-strongest-in)
+- [3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money:](#3-now-lets-see-if-there-are-any-inefficiencies-in-our-product-categories-and-what-categories-bring-the-most-money)
+
+##### *Customer insights*
+- [4) Who are our most active customers?](#4-who-are-our-most-active-customers)
+- [5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query:](#5-if-we-want-to-find-out-the-location-of-each-customer-and-how-much-they-sold-total-quantity-sold-we-can-use-this-query)
+- [6) We can also find out the most sold product by each customer:](#6-we-can-also-find-out-the-most-sold-product-by-each-customer)
+- [7) Which customers generate the most revenue?](#7-which-customers-generate-the-most-revenue)
+
+##### *Country-based insights*
+- [8) Which country generates the most and least revenue?](#8-which-country-generates-the-most-and-least-revenue)
+- [9) Let's find out the best & worst performing categories in Argentina:](#9-lets-find-out-the-best--worst-performing-categories-in-argentina)
+- [10) Most popular products and their categories by country:](#10-most-popular-products-and-their-categories-by-country)
+- [11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query:](#11-if-we-want-to-find-out-the-most-popular-product-in-argentina-then-we-can-add-this-to-our-existent-query)
+
+ ##### *Time-based trends* 
+- [12) What were our sales patterns in 1996?](#12-what-were-our-sales-patterns-in-1996)
+- [13) What is our best-performing month overall?](#13-what-is-our-best-performing-month-overall)
+- [14) Which year saw the highest total sales?](#14-which-year-saw-the-highest-total-sales)
+- [15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends)?](#15-how-has-revenue-changed-over-time-year-over-year--month-over-month-trends)
+- [16) Which products sell the most?](#16-which-products-sell-the-most)
+
+</details>
 
 ---- 
 
@@ -186,7 +213,7 @@ Establish diversified supplier contracts and introduce contingency planning for 
 </details>
 
 ---
-  <details><summary><strong>2) What categories are we strongest in? </strong></summary>
+
     
 #### 2) What categories are we strongest in?
   
