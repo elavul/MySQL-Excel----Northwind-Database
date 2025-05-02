@@ -18,10 +18,8 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
 
  [🎯 Aims of the Project](#-aims-of-the-project) <br>
  [🗂️ Introducing the Dataset](#️-introducing-the-dataset)   <br>
- [🎯 Methods I Used for Analysis](#-methods-i-used-for-analysis) <br>
- [🧹 Pre-Analysis: Data Quality Checks](#-pre-analysis-data-quality-checks)   <br>
- [🔗 Understand Relationships](#-understand-relationships)   <br>
- [🧼 Data Modeling & Cleaning](#-data-modeling--cleaning)   <br>
+ [🧹 Pre-Analysis Steps](#-pre-analysis-steps)   <br>
+
  [🎯 Key Insights](#-key-insights) <br>
  [💼 Final thoughts & business initiatives](#-final-thoughts--business-initiatives) <br>
  [⚠️ Challenges & Limitations](#-challenges--limitations) <br>
@@ -92,6 +90,8 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 
 ---
 
+### 🧹 Pre-Analysis Steps:
+
  <details><summary><strong> 🎯 Methods I Used for Analysis:   </strong> </summary> 
 
 - Exploratory Data Analysis (EDA): Investigated data structure, table relationships, and schema to understand the database.
@@ -109,7 +109,7 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 </details>
 </details>
 ---
- <details><summary><strong>🧹 Pre-Analysis: Data Quality Checks   </strong> </summary> 
+ <details><summary><strong> Data Quality Checks   </strong> </summary> 
 
 Before diving into the analysis, it's important to ensure the data is **clean, reliable, and ready**. A few simple checks go a long way in ensuring the accuracy of your insights.
 **Run SQL queries to check:**
