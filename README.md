@@ -6,7 +6,6 @@
 > *“Data by itself is silent. Ask it the right questions, and it tells a story.”*
 ---
 
----
 ## 🧠 About the Project: Northwind SQL EDA
 
 The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
@@ -191,8 +190,6 @@ Imagine this dataset came from a real-world client: a small business owner askin
 ---- 
 
 #### *Product strategy* 
-  <details><summary><strong>1) Which suppliers are providing the most products, and what does it tell us? </strong></summary>
-
 
 #### 1) Which suppliers are providing the most products, and what does it tell us?
  
@@ -230,10 +227,10 @@ For instance, a high number of products in **Beverages** may suggest either spec
 **Business Initiative:**  
 Invest marketing and inventory resources in top-performing categories.  
 Explore expanding product offerings in underrepresented but high-margin categories.
-</details>
+
 
 ---
-  <details><summary><strong>3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money: </strong></summary>
+
 
 #### 3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money:
 * Query:
@@ -295,7 +292,6 @@ What categories could potentially bring more money if there would be more demand
 
 #### *Customer insights*
 
-  <details><summary><strong>4) Who are our most active customers? </strong></summary>
     
 #### 4) Who are our most active customers?
 ![image](https://github.com/user-attachments/assets/51816fcf-19e8-4643-9270-c3073731d88c)
@@ -325,7 +321,7 @@ Using a `JOIN` between the `orders` and `customers` tables, we identified custom
 </details>
 
 ----
-  <details><summary><strong>5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query: </strong></summary>
+
     
 #### 5) If we want to find out the location of each customer and how much they sold (total quantity sold) we can use this query:
 ![image](https://github.com/user-attachments/assets/b50ed6e5-989f-4cb3-bacb-fafe7e4a3ff4)
@@ -333,16 +329,14 @@ Using a `JOIN` between the `orders` and `customers` tables, we identified custom
 </details>
 
 ---
-  <details><summary><strong>6) We can also find out the most sold product by each customer: </strong></summary>
-    
+ 
 #### 6) We can also find out the most sold product by each customer:
 ![image](https://github.com/user-attachments/assets/354184a5-d938-49ba-a1be-140cbe454d04)
 ![image](https://github.com/user-attachments/assets/d007aad6-6f65-479e-8b42-ab856438f265)
 </details>
 
 ---
-  <details><summary><strong>7) Which customers generate the most revenue? </strong></summary>
-    
+
 #### 7) Which customers generate the most revenue?
 ![image](https://github.com/user-attachments/assets/2b765b65-fa3f-4aa1-aea9-77da04b6b252)
 ![image](https://github.com/user-attachments/assets/03489dc1-2a74-460a-b37d-f9061ca0eb01)
@@ -363,8 +357,7 @@ This analysis calculates the **total revenue per customer** using multiple `JOIN
 
 #### *Country-based insights*
 
-  <details><summary><strong>8) Which country generates the most and least revenue? </strong></summary>
-    
+ 
 #### 8) Which country generates the most and least revenue?
 ![image](https://github.com/user-attachments/assets/70b6bf47-89d4-4d08-a6c9-14b140dfb72a)
 ![image](https://github.com/user-attachments/assets/2b51a1b1-5f82-4179-ae61-95617689652d)
@@ -377,7 +370,7 @@ This could be due to **low product demand**, **limited customer base**, or the m
 </details>
 
 ---
-  <details><summary><strong>9) Let's find out the best & worst performing categories in Argentina: </strong></summary>
+
     
 #### 9) Let's find out the best & worst performing categories in Argentina:
 ![image](https://github.com/user-attachments/assets/9d50101a-6ca1-46c5-98fa-4623a7effdc2)
@@ -394,7 +387,7 @@ This suggests an opportunity for Argentina to **expand its product offerings** b
 </details>
 
 ---
-  <details><summary><strong>10) Most popular products and their categories by country: </strong></summary>
+ 
     
 #### 10) Most popular products and their categories by country:
 ![image](https://github.com/user-attachments/assets/a05f4c5b-7fb9-4681-9bb7-155ef9d28e8b)
@@ -402,7 +395,7 @@ This suggests an opportunity for Argentina to **expand its product offerings** b
 </details>
 
 ---
-  <details><summary><strong>11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query: </strong></summary>
+
   
 #### 11) If we want to find out the most popular product in 'Argentina' then we can add this to our existent query:
 ![image](https://github.com/user-attachments/assets/b466f814-147e-4f2a-9fa2-eab7d8916c21)
@@ -417,8 +410,6 @@ We can choose other countries as well, such as USA:<br>
 ----
 
 #### *Time-based trends*  
-
-  <details><summary><strong>12) What were our sales patterns in 1996? </strong></summary>
     
 #### 12) What were our sales patterns in 1996?
 ![image](https://github.com/user-attachments/assets/1717a71d-d341-4ba3-a978-ebb0e38e9cc1)
@@ -435,7 +426,6 @@ For example, to view sales trends in the **USA** during 1996, simply add the fol
 </details>
 
 ---
-  <details><summary><strong>13) What is our best-performing month overall? </strong></summary>
     
 #### 13) What is our best-performing month overall?
 ![image](https://github.com/user-attachments/assets/858f4ad8-62df-4116-b29f-963cd43808e6)
@@ -455,7 +445,6 @@ It reveals when demand is highest, allowing you to **replicate the strategies an
 </details>
 
 ---
-  <details><summary><strong>14) Which year saw the highest total sales? </strong></summary>
     
 #### 14) Which year saw the highest total sales?
 ![image](https://github.com/user-attachments/assets/c6337be5-a4c8-48dc-8310-2fd68be8359a)
@@ -483,7 +472,6 @@ If one year underperforms, it’s an opportunity to:
 </details>
 
 ---
-  <details><summary><strong>15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends) </strong></summary>
 
 #### 15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends)? <br>
 By Year: <br>
@@ -503,7 +491,6 @@ Business Initiative: Adjust pricing, volume strategies, and promotions according
 </details>
 
 ---
-  <details><summary><strong>16) Which products sell the most? </strong></summary>
 
 #### 16)  Which products sell the most?
 ![image](https://github.com/user-attachments/assets/682661a8-3935-44e9-a0ef-e4c1a0b5549b)
