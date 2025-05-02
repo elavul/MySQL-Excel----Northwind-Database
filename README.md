@@ -63,7 +63,7 @@ In this project I acted as the data analyst for the Northwind company. I was pro
 - Country-level opportunities for expansion - an opportunity for expansion
 
 ---
-### Tools used:
+### 🚀 Tools used:
 SQL – Core language for data querying <br>
 Excel - for graphs<br>
 MySQL Workbench – Writing, testing, and visualizing SQL <br>
@@ -107,7 +107,7 @@ I **primarily focused on the Orders, Order Details, and Products tables** to und
 </details>
 </details>
 
- <details><summary><strong> Data Quality Checks   </strong> </summary> 
+ <details><summary><strong> 🚀 Data Quality Checks   </strong> </summary> 
 
 Before diving into the analysis, it's important to ensure the data is **clean, reliable, and ready**. A few simple checks go a long way in ensuring the accuracy of your insights.
 **Run SQL queries to check:**
