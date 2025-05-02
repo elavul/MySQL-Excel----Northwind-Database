@@ -157,14 +157,14 @@ SELECT * FROM products WHERE price > 100000;
 ## Technical Details: SQL and Excel
 ### 📈 Business Questions Explored
 Imagine this dataset came from a real-world client: a small business owner asking for insights into how the company is operating. Their questions might include:
-
-<details>
-<summary><strong>📌 Click here to see all questions</strong></summary>
-
+(just click onn the question that is of most interest)
 ##### *Product strategy* 
+
 - [1) Which suppliers are providing the most products, and what does it tell us?](#1-which-suppliers-are-providing-the-most-products-and-what-does-it-tell-us)
 - [2) What categories are we strongest in?](#2-what-categories-are-we-strongest-in)
 - [3) Now let's see if there are any inefficiencies in our product categories and what categories bring the most money:](#3-now-lets-see-if-there-are-any-inefficiencies-in-our-product-categories-and-what-categories-bring-the-most-money)
+ 
+
 
 ##### *Customer insights*
 - [4) Who are our most active customers?](#4-who-are-our-most-active-customers)
@@ -185,7 +185,7 @@ Imagine this dataset came from a real-world client: a small business owner askin
 - [15) How has revenue changed over time (Year-over-Year & Month-over-Month Trends)?](#15-how-has-revenue-changed-over-time-year-over-year--month-over-month-trends)
 - [16) Which products sell the most?](#16-which-products-sell-the-most)
 
-</details>
+
 
 ---- 
 
