@@ -1,4 +1,7 @@
  # Northwind Database Analysis
+ 
+ Project Type: Exploratory Data Analysis (EDA) on multi-table relational dataset
+ 
 ---
 ![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -7,6 +10,7 @@
 ---
 
 ## 🧠 About the Project: Northwind SQL EDA
+
 
 The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
 We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights that inform product performance, customer behavior, sales patterns, and potential areas of growth.
@@ -65,9 +69,9 @@ In this project I acted as the data analyst for the Northwind company. I was pro
 ---
 ### 🚀 Tools used:
 SQL – Core language for data querying <br>
-Excel - for graphs<br>
-MySQL Workbench – Writing, testing, and visualizing SQL <br>
-Tableau - for a final interactive visualisation
+Excel - Charts for revenue/time trends <br>
+MySQL Workbench – Writing, testing, and visualizing SQL, Multi-table joins, Filtering and grouping <br>
+Tableau -  Final interactive dashboard with KPIs
 https://public.tableau.com/app/profile/ela.maria.vultur/viz/NorthwindDataset-spottinginefficienciesinourproductrange/Dashboard1
 
 ---
