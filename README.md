@@ -1,14 +1,10 @@
  # Northwind Database Analysis
  
- Project Type: Exploratory Data Analysis (EDA) on multi-table relational dataset
- 
----
 ![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-> *“Data by itself is silent. Ask it the right questions, and it tells a story.”*
----
-
+Project Type: Exploratory Data Analysis (EDA) on multi-table relational dataset 
+  
 ## 🧠 About the Project: Northwind SQL EDA
 
 
@@ -26,7 +22,7 @@ We perform Exploratory Data Analysis (EDA) using SQL queries to extract insights
  [💼 Final thoughts & business initiatives](#-final-thoughts--business-initiatives) <br>
  [⚠️ Challenges & Limitations](#-challenges--limitations) <br>
  [🚀 What is Next](#-what-is-next)
- 
+ > *“Data by itself is silent. Ask it the right questions, and it tells a story.”*
 <details>
 <summary><strong>📌 Technical Details & Business Questions Explored</strong></summary>
 
@@ -159,6 +155,7 @@ SELECT * FROM products WHERE price > 100000;
 -----
 -----
 ## Technical Details: SQL and Excel
+> *“Data by itself is silent. Ask it the right questions, and it tells a story.”*
 ### 📈 Business Questions Explored
 Imagine this dataset came from a real-world client: a small business owner asking for insights into how the company is operating. Their questions might include:
 (just click onn the question that is of most interest)
