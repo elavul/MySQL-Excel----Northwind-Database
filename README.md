@@ -6,7 +6,7 @@
 
 Project Type: Exploratory Data Analysis (EDA) on multi-table relational dataset 
   
-## 🧠 About the Project: Northwind SQL EDA
+ 
 
 
 The Northwind database is a fictional dataset provided by Microsoft. It simulates the operations of a small company and includes rich data about products, orders, customers, and more.
